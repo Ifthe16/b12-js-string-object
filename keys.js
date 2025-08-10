@@ -6,4 +6,6 @@ const computer = {
 }
 
 const keys = Object.keys(computer);
+const keysCount = Object.keys(computer).length;
 console.log(keys);
+console.log(keysCount);

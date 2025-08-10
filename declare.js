@@ -19,3 +19,11 @@ console.log(rubber);
 
 // using class or function
 // using new keyword
+
+
+// this code does not work
+var orgObject = {
+    company: 'ABC Crop'
+};
+const employee = Object.create(orgObject);
+console.log(employee);
